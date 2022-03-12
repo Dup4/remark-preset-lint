@@ -1,7 +1,7 @@
 {
   "name": "@dup4/remark-preset-lint",
-	"private": true,
-	"author": "Dup4 <lyuzhi.pan@gmail.com> (https://dup4.com)",
+  "private": true,
+  "author": "Dup4 <lyuzhi.pan@gmail.com> (https://dup4.com)",
   "license": "MIT",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -16,7 +16,8 @@
     "url": "https://github.com/Dup4/remark-preset-lint/issues"
   },
   "homepage": "https://github.com/Dup4/remark-preset-lint#readme",
-	"devDependencies": {
+  "devDependencies": {
+    "@dup4/remark-preset-lint": "*",
     "eslint": "^8.10.0",
     "lerna": "^4.0.0",
     "typescript": "^4.6.2"
