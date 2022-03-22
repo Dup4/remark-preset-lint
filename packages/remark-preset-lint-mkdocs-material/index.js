@@ -214,7 +214,7 @@ const remarkPresetLintMarkdownStyleGuide = {
     // Cannot be checked?
 
     // https://cirosantilli.com/markdown-style-guide/#header-length
-    remarkLintMaximumHeadingLength,
+    // remarkLintMaximumHeadingLength,
 
     // https://cirosantilli.com/markdown-style-guide/#punctuation-at-the-end-of-headers
     [remarkLintNoHeadingPunctuation, ":."],
