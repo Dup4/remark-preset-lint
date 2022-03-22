@@ -155,10 +155,13 @@ import remarkDetails from "remark-details";
 
 /** @type {Preset} */
 const remarkPresetLintMarkdownStyleGuide = {
+  settings: {
+    listItemIndent: "one",
+  },
   plugins: [
-    remarkFootnotes,
     remarkMath,
     remarkDetails,
+    remarkFootnotes,
     remarkCopyWritingCorrect,
     remarkMathSpace,
 
