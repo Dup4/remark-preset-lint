@@ -218,7 +218,7 @@ const remarkPresetLintMarkdownStyleGuide = {
     remarkLintNoBlockquoteWithoutMarker,
 
     // https://cirosantilli.com/markdown-style-guide/#unordered
-    [remarkLintUnorderedListMarkerStyle, "-"],
+    [remarkLintUnorderedListMarkerStyle, "consistent"],
 
     // https://cirosantilli.com/markdown-style-guide/#ordered
     [remarkLintOrderedListMarkerStyle, "."],
