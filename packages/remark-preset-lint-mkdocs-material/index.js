@@ -156,6 +156,12 @@ import remarkDetails from "remark-details";
 /** @type {Preset} */
 const remarkPresetLintMarkdownStyleGuide = {
   plugins: [
+    remarkFootnotes,
+    remarkMath,
+    remarkDetails,
+    remarkCopyWritingCorrect,
+    remarkMathSpace,
+
     remarkLint,
 
     // https://cirosantilli.com/markdown-style-guide/#file-extension
@@ -286,14 +292,6 @@ const remarkPresetLintMarkdownStyleGuide = {
 
     // https://cirosantilli.com/markdown-style-guide/#email-automatic-links.
     // Not checked.
-
-    remarkFootnotes,
-    remarkDetails,
-
-    remarkMath,
-    remarkMathSpace,
-
-    remarkCopyWritingCorrect,
 
     remarkLintFinalNewLine,
 
