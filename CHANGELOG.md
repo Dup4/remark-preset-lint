@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/Dup4/remark-preset-lint/compare/v0.3.0...v0.4.0) (2022-03-22)
+
+
+### Features
+
+* change plugin order ([8d6a252](https://github.com/Dup4/remark-preset-lint/commit/8d6a2521778b5a4bb62e374b1f922ad64cf8e2c7))
+
+
+
+
+
 # [0.3.0](https://github.com/Dup4/remark-preset-lint/compare/v0.2.0...v0.3.0) (2022-03-22)
 
 
