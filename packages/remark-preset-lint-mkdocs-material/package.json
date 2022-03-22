@@ -31,6 +31,10 @@
     "index.d.ts",
     "index.js"
   ],
+  "scripts": {
+    "build": "rimraf \"*.d.ts\" && tsc && type-coverage",
+    "test": "ava"
+  },
   "dependencies": {
     "@types/mdast": "^3.0.10",
     "remark-copywriting-correct": "^0.5.0",
@@ -83,8 +87,5 @@
     "remark-math": "^5.1.1",
     "remark-math-space": "github:Dup4/remark-math-space",
     "unified": "^10.1.2"
-  },
-  "scripts": {
-    "build": "rimraf \"*.d.ts\" && tsc && type-coverage"
   }
 }
