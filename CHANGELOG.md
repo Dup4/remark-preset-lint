@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/Dup4/remark-preset-lint/compare/v0.5.1...v0.6.0) (2022-03-22)
+
+
+### Features
+
+* disable remarkLintMaximumHeadingLength ([6ce471f](https://github.com/Dup4/remark-preset-lint/commit/6ce471f0f4471d7ce53c40c827de64dbfd7a928c))
+
+
+
+
+
 ## [0.5.1](https://github.com/Dup4/remark-preset-lint/compare/v0.5.0...v0.5.1) (2022-03-22)
 
 **Note:** Version bump only for package @dup4/remark-preset-lint
