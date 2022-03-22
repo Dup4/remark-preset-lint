@@ -287,14 +287,17 @@ const remarkPresetLintMarkdownStyleGuide = {
     // https://cirosantilli.com/markdown-style-guide/#email-automatic-links.
     // Not checked.
 
+    remarkFootnotes,
+    remarkDetails,
+
     remarkMath,
     remarkMathSpace,
-    remarkFootnotes,
-    remarkCopyWritingCorrect,
-    remarkLintFinalNewLine,
-    remarkLintNoTabs,
 
-    remarkDetails,
+    remarkCopyWritingCorrect,
+
+    remarkLintFinalNewLine,
+
+    remarkLintNoTabs,
   ],
 };
 
