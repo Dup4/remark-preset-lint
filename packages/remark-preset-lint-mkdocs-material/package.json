@@ -1,6 +1,6 @@
 {
   "name": "remark-preset-lint-mkdocs-material",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "remark preset to configure remark-lint with rules that enforce the markdown style guide for mkdocs material",
   "license": "MIT",
   "keywords": [
