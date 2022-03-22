@@ -16,59 +16,61 @@ importers:
 
   packages/remark-preset-lint-mkdocs-material:
     specifiers:
-      '@types/mdast': ^3.0.0
+      '@types/mdast': ^3.0.10
       remark-copywriting-correct: ^0.5.0
+      remark-details: github:Dup4/remark-details#8f83cf376b95db27f7c0f41fccb17eaff5abd9ae
       remark-footnotes: ^4.0.1
-      remark-lint: ^9.0.0
-      remark-lint-blockquote-indentation: ^3.0.0
-      remark-lint-code-block-style: ^3.0.0
-      remark-lint-definition-case: ^3.0.0
-      remark-lint-definition-spacing: ^3.0.0
-      remark-lint-emphasis-marker: ^3.0.0
-      remark-lint-fenced-code-flag: ^3.0.0
-      remark-lint-fenced-code-marker: ^3.0.0
-      remark-lint-file-extension: ^2.0.0
-      remark-lint-final-definition: ^3.0.0
+      remark-lint: ^9.1.1
+      remark-lint-blockquote-indentation: ^3.1.1
+      remark-lint-code-block-style: ^3.1.0
+      remark-lint-definition-case: ^3.1.1
+      remark-lint-definition-spacing: ^3.1.1
+      remark-lint-emphasis-marker: ^3.1.1
+      remark-lint-fenced-code-flag: ^3.1.1
+      remark-lint-fenced-code-marker: ^3.1.1
+      remark-lint-file-extension: ^2.1.1
+      remark-lint-final-definition: ^3.1.1
       remark-lint-final-newline: ^2.1.1
-      remark-lint-hard-break-spaces: ^3.0.0
-      remark-lint-heading-increment: ^3.0.0
-      remark-lint-heading-style: ^3.0.0
-      remark-lint-link-title-style: ^3.0.0
-      remark-lint-list-item-content-indent: ^3.0.0
-      remark-lint-list-item-indent: ^3.0.0
-      remark-lint-maximum-heading-length: ^3.0.0
-      remark-lint-no-blockquote-without-marker: ^5.0.0
-      remark-lint-no-consecutive-blank-lines: ^4.0.0
-      remark-lint-no-duplicate-headings: ^3.0.0
-      remark-lint-no-emphasis-as-heading: ^3.0.0
-      remark-lint-no-file-name-articles: ^2.0.0
-      remark-lint-no-file-name-consecutive-dashes: ^2.0.0
-      remark-lint-no-file-name-irregular-characters: ^2.0.0
-      remark-lint-no-file-name-mixed-case: ^2.0.0
-      remark-lint-no-file-name-outer-dashes: ^2.0.0
-      remark-lint-no-heading-punctuation: ^3.0.0
-      remark-lint-no-inline-padding: ^4.0.0
-      remark-lint-no-literal-urls: ^3.0.0
-      remark-lint-no-multiple-toplevel-headings: ^3.0.0
-      remark-lint-no-shell-dollars: ^3.0.0
-      remark-lint-no-shortcut-reference-image: ^3.0.0
-      remark-lint-no-shortcut-reference-link: ^3.0.0
-      remark-lint-no-table-indentation: ^4.0.0
+      remark-lint-hard-break-spaces: ^3.1.1
+      remark-lint-heading-increment: ^3.1.1
+      remark-lint-heading-style: ^3.1.1
+      remark-lint-link-title-style: ^3.1.1
+      remark-lint-list-item-content-indent: ^3.1.1
+      remark-lint-list-item-indent: ^3.1.1
+      remark-lint-maximum-heading-length: ^3.1.1
+      remark-lint-no-blockquote-without-marker: ^5.1.1
+      remark-lint-no-consecutive-blank-lines: ^4.1.2
+      remark-lint-no-duplicate-headings: ^3.1.1
+      remark-lint-no-emphasis-as-heading: ^3.1.1
+      remark-lint-no-file-name-articles: ^2.1.1
+      remark-lint-no-file-name-consecutive-dashes: ^2.1.1
+      remark-lint-no-file-name-irregular-characters: ^2.1.1
+      remark-lint-no-file-name-mixed-case: ^2.1.1
+      remark-lint-no-file-name-outer-dashes: ^2.1.1
+      remark-lint-no-heading-punctuation: ^3.1.1
+      remark-lint-no-inline-padding: ^4.1.1
+      remark-lint-no-literal-urls: ^3.1.1
+      remark-lint-no-multiple-toplevel-headings: ^3.1.1
+      remark-lint-no-shell-dollars: ^3.1.1
+      remark-lint-no-shortcut-reference-image: ^3.1.1
+      remark-lint-no-shortcut-reference-link: ^3.1.1
+      remark-lint-no-table-indentation: ^4.1.1
       remark-lint-no-tabs: ^3.1.1
-      remark-lint-ordered-list-marker-style: ^3.0.0
-      remark-lint-ordered-list-marker-value: ^3.0.0
-      remark-lint-rule-style: ^3.0.0
-      remark-lint-strong-marker: ^3.0.0
-      remark-lint-table-cell-padding: ^4.0.0
-      remark-lint-table-pipe-alignment: ^3.0.0
-      remark-lint-table-pipes: ^4.0.0
-      remark-lint-unordered-list-marker-style: ^3.0.0
+      remark-lint-ordered-list-marker-style: ^3.1.1
+      remark-lint-ordered-list-marker-value: ^3.1.1
+      remark-lint-rule-style: ^3.1.1
+      remark-lint-strong-marker: ^3.1.1
+      remark-lint-table-cell-padding: ^4.1.2
+      remark-lint-table-pipe-alignment: ^3.1.1
+      remark-lint-table-pipes: ^4.1.1
+      remark-lint-unordered-list-marker-style: ^3.1.1
       remark-math: ^5.1.1
       remark-math-space: ^3.0.0
-      unified: ^10.0.0
+      unified: ^10.1.2
     dependencies:
       '@types/mdast': 3.0.10
       remark-copywriting-correct: 0.5.0
+      remark-details: github.com/Dup4/remark-details/8f83cf376b95db27f7c0f41fccb17eaff5abd9ae
       remark-footnotes: 4.0.1
       remark-lint: 9.1.1
       remark-lint-blockquote-indentation: 3.1.1
@@ -1525,6 +1527,10 @@ packages:
       delayed-stream: 1.0.0
     dev: true
 
+  /comma-separated-tokens/2.0.2:
+    resolution: {integrity: sha512-G5yTt3KQN4Yn7Yk4ed73hlZ1evrFKXeUW3086p3PRFNp7m2vIjI6Pg+Kgb+oyzhd9F2qdcoj67+y3SdxL5XWsg==}
+    dev: false
+
   /commander/8.3.0:
     resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
     engines: {node: '>= 12'}
@@ -1695,18 +1701,6 @@ packages:
     resolution: {integrity: sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==}
     dev: true
 
-  /debug/4.3.3:
-    resolution: {integrity: sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-    dependencies:
-      ms: 2.1.2
-    dev: false
-
   /debug/4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
     engines: {node: '>=6.0'}
@@ -1717,7 +1711,6 @@ packages:
         optional: true
     dependencies:
       ms: 2.1.2
-    dev: true
 
   /debuglog/1.0.1:
     resolution: {integrity: sha1-qiT/uaw9+aI1GDfPstJ5NgzXhJI=}
@@ -2431,6 +2424,27 @@ packages:
     dependencies:
       function-bind: 1.1.1
     dev: true
+
+  /hast-util-parse-selector/3.1.0:
+    resolution: {integrity: sha512-AyjlI2pTAZEOeu7GeBPZhROx0RHBnydkQIXlhnFzDi0qfXTmGUWoCYZtomHbrdrheV4VFUlPcfJ6LMF5T6sQzg==}
+    dependencies:
+      '@types/hast': 2.3.4
+    dev: false
+
+  /hast/1.0.0:
+    resolution: {integrity: sha1-UGFeaysFg+Vgi8dsRwKXIvHgBgc=}
+    deprecated: Renamed to rehype
+    dev: false
+
+  /hastscript/7.0.2:
+    resolution: {integrity: sha512-uA8ooUY4ipaBvKcMuPehTAB/YfFLSSzCwFSwT6ltJbocFUKH/GDHLN+tflq7lSRf9H86uOuxOFkh1KgIy3Gg2g==}
+    dependencies:
+      '@types/hast': 2.3.4
+      comma-separated-tokens: 2.0.2
+      hast-util-parse-selector: 3.1.0
+      property-information: 6.1.1
+      space-separated-tokens: 2.0.1
+    dev: false
 
   /hosted-git-info/2.8.9:
     resolution: {integrity: sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==}
@@ -3376,7 +3390,7 @@ packages:
     resolution: {integrity: sha512-ryTDy6UUunOXy2HPjelppgJ2sNfcPz1pLlMdA6Rz9jPzhLikWXv/irpWV/I2jd68Uhmny7hHxAlAhk4+vWggpg==}
     dependencies:
       '@types/debug': 4.1.7
-      debug: 4.3.3
+      debug: 4.3.4
       decode-named-character-reference: 1.0.1
       micromark-core-commonmark: 1.0.6
       micromark-factory-space: 1.0.0
@@ -4124,6 +4138,10 @@ packages:
       read: 1.0.7
     dev: true
 
+  /property-information/6.1.1:
+    resolution: {integrity: sha512-hrzC564QIl0r0vy4l6MvRLhafmUowhO/O3KgVSoXIbbA2Sz4j8HGpJc6T2cubRVwMwpdiG/vKGfhT4IixmKN9w==}
+    dev: false
+
   /proto-list/1.2.4:
     resolution: {integrity: sha1-IS1b/hMYMGpCD2QCuOJv85ZHqEk=}
     dev: true
@@ -4338,7 +4356,7 @@ packages:
       unified: 10.1.2
       unified-lint-rule: 2.1.1
       unist-util-generated: 2.0.0
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4349,7 +4367,7 @@ packages:
       unified: 10.1.2
       unified-lint-rule: 2.1.1
       unist-util-generated: 2.0.0
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4359,7 +4377,7 @@ packages:
       '@types/mdast': 3.0.10
       unified: 10.1.2
       unified-lint-rule: 2.1.1
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4369,7 +4387,7 @@ packages:
       '@types/mdast': 3.0.10
       unified: 10.1.2
       unified-lint-rule: 2.1.1
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4379,7 +4397,7 @@ packages:
       '@types/mdast': 3.0.10
       unified: 10.1.2
       unified-lint-rule: 2.1.1
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4390,7 +4408,7 @@ packages:
       unified: 10.1.2
       unified-lint-rule: 2.1.1
       unist-util-generated: 2.0.0
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4400,7 +4418,7 @@ packages:
       '@types/mdast': 3.0.10
       unified: 10.1.2
       unified-lint-rule: 2.1.1
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4419,7 +4437,7 @@ packages:
       unified: 10.1.2
       unified-lint-rule: 2.1.1
       unist-util-generated: 2.0.0
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4438,7 +4456,7 @@ packages:
       unified: 10.1.2
       unified-lint-rule: 2.1.1
       unist-util-generated: 2.0.0
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4469,7 +4487,7 @@ packages:
       '@types/mdast': 3.0.10
       unified: 10.1.2
       unified-lint-rule: 2.1.1
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
       vfile-location: 4.0.1
     dev: false
@@ -4481,7 +4499,7 @@ packages:
       pluralize: 8.0.0
       unified: 10.1.2
       unified-lint-rule: 2.1.1
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4493,7 +4511,7 @@ packages:
       unified: 10.1.2
       unified-lint-rule: 2.1.1
       unist-util-generated: 2.0.0
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4515,7 +4533,7 @@ packages:
       unified: 10.1.2
       unified-lint-rule: 2.1.1
       unist-util-generated: 2.0.0
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
       vfile-location: 4.0.1
     dev: false
@@ -4529,7 +4547,7 @@ packages:
       unified: 10.1.2
       unified-lint-rule: 2.1.1
       unist-util-generated: 2.0.0
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4541,7 +4559,7 @@ packages:
       unified: 10.1.2
       unified-lint-rule: 2.1.1
       unist-util-generated: 2.0.0
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-stringify-position: 3.0.2
       unist-util-visit: 4.1.0
     dev: false
@@ -4626,7 +4644,7 @@ packages:
       unified: 10.1.2
       unified-lint-rule: 2.1.1
       unist-util-generated: 2.0.0
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4637,7 +4655,7 @@ packages:
       unified: 10.1.2
       unified-lint-rule: 2.1.1
       unist-util-generated: 2.0.0
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-stringify-position: 3.0.2
       unist-util-visit: 4.1.0
     dev: false
@@ -4678,7 +4696,7 @@ packages:
       '@types/mdast': 3.0.10
       unified: 10.1.2
       unified-lint-rule: 2.1.1
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
       vfile-location: 4.0.1
     dev: false
@@ -4699,7 +4717,7 @@ packages:
       unified: 10.1.2
       unified-lint-rule: 2.1.1
       unist-util-generated: 2.0.0
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4710,7 +4728,7 @@ packages:
       unified: 10.1.2
       unified-lint-rule: 2.1.1
       unist-util-generated: 2.0.0
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4720,7 +4738,7 @@ packages:
       '@types/mdast': 3.0.10
       unified: 10.1.2
       unified-lint-rule: 2.1.1
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4730,7 +4748,7 @@ packages:
       '@types/mdast': 3.0.10
       unified: 10.1.2
       unified-lint-rule: 2.1.1
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4741,7 +4759,7 @@ packages:
       '@types/unist': 2.0.6
       unified: 10.1.2
       unified-lint-rule: 2.1.1
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4751,7 +4769,7 @@ packages:
       '@types/mdast': 3.0.10
       unified: 10.1.2
       unified-lint-rule: 2.1.1
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4761,7 +4779,7 @@ packages:
       '@types/mdast': 3.0.10
       unified: 10.1.2
       unified-lint-rule: 2.1.1
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -4772,7 +4790,7 @@ packages:
       unified: 10.1.2
       unified-lint-rule: 2.1.1
       unist-util-generated: 2.0.0
-      unist-util-position: 4.0.1
+      unist-util-position: 4.0.2
       unist-util-visit: 4.1.0
     dev: false
 
@@ -5055,6 +5073,10 @@ packages:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /space-separated-tokens/2.0.1:
+    resolution: {integrity: sha512-ekwEbFp5aqSPKaqeY1PGrlGQxPNaq+Cnx4+bE2D8sciBQrHpbwoBbawqTN2+6jPs9IdWxxiUcN0K2pkczD3zmw==}
+    dev: false
 
   /spdx-correct/3.1.1:
     resolution: {integrity: sha512-cOYcUWwhCuHCXi49RhFRCyJEK3iPj1Ziz9DpViV3tbZOwXD49QzIN3MpOLJNxh2qwq2lJJZaKMVw9qNi4jTC0w==}
@@ -5498,8 +5520,10 @@ packages:
     resolution: {integrity: sha512-F5CZ68eYzuSvJjGhCLPL3cYx45IxkqXSetCcRgUXtbcm50X2L9oOWQlfUfDdAf+6Pd27YDblBfdtmsThXmwpbQ==}
     dev: false
 
-  /unist-util-position/4.0.1:
-    resolution: {integrity: sha512-mgy/zI9fQ2HlbOtTdr2w9lhVaiFUHWQnZrFF2EUoVOqtAUdzqMtNiD99qA5a1IcjWVR8O6aVYE9u7Z2z1v0SQA==}
+  /unist-util-position/4.0.2:
+    resolution: {integrity: sha512-Y6+plxR41dOLbyyqVDLuGWgXDmxdXslCSRYQkSDagBnOT9oFsQH0J8FzhirSklUEe0xZTT0WDnAE1gXPaDFljA==}
+    dependencies:
+      '@types/unist': 2.0.6
     dev: false
 
   /unist-util-stringify-position/3.0.2:
@@ -5828,4 +5852,23 @@ packages:
 
   /zwitch/2.0.2:
     resolution: {integrity: sha512-JZxotl7SxAJH0j7dN4pxsTV6ZLXoLdGME+PsjkL/DaBrVryK9kTGq06GfKrwcSOqypP+fdXGoCHE36b99fWVoA==}
+    dev: false
+
+  github.com/Dup4/remark-details/8f83cf376b95db27f7c0f41fccb17eaff5abd9ae:
+    resolution: {tarball: https://codeload.github.com/Dup4/remark-details/tar.gz/8f83cf376b95db27f7c0f41fccb17eaff5abd9ae}
+    name: remark-details
+    version: 4.1.1
+    dependencies:
+      hast: 1.0.0
+      hastscript: 7.0.2
+      mdast-util-from-markdown: 1.2.0
+      mdast-util-to-markdown: 1.3.0
+      micromark-factory-space: 1.0.0
+      micromark-util-character: 1.1.0
+      micromark-util-symbol: 1.0.1
+      micromark-util-types: 1.0.2
+      unified: 10.1.2
+      unist-util-visit: 4.1.0
+    transitivePeerDependencies:
+      - supports-color
     dev: false

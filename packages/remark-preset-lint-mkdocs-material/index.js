@@ -151,6 +151,7 @@ import remarkFootnotes from "remark-footnotes";
 import remarkCopyWritingCorrect from "remark-copywriting-correct";
 import remarkLintFinalNewLine from "remark-lint-final-newline";
 import remarkLintNoTabs from "remark-lint-no-tabs";
+import remarkDetails from "remark-details";
 
 /** @type {Preset} */
 const remarkPresetLintMarkdownStyleGuide = {
@@ -292,6 +293,8 @@ const remarkPresetLintMarkdownStyleGuide = {
     remarkCopyWritingCorrect,
     remarkLintFinalNewLine,
     remarkLintNoTabs,
+
+    remarkDetails,
   ],
 };
 
