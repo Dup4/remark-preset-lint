@@ -65,7 +65,7 @@ importers:
       remark-lint-table-pipes: ^4.1.1
       remark-lint-unordered-list-marker-style: ^3.1.1
       remark-math: ^5.1.1
-      remark-math-space: ^3.0.0
+      remark-math-space: github:Dup4/remark-math-space
       unified: ^10.1.2
     dependencies:
       '@types/mdast': 3.0.10
@@ -117,7 +117,7 @@ importers:
       remark-lint-table-pipes: 4.1.1
       remark-lint-unordered-list-marker-style: 3.1.1
       remark-math: 5.1.1
-      remark-math-space: 3.0.0
+      remark-math-space: github.com/Dup4/remark-math-space/ec0780848b987793712d0f769d57770a57b948f9
       unified: 10.1.2
 
 packages:
@@ -4804,12 +4804,6 @@ packages:
       - supports-color
     dev: false
 
-  /remark-math-space/3.0.0:
-    resolution: {integrity: sha512-DdGvQabDx7RVXqby1h3tncHD3nTu2czlpi+t7Nh09ydXTxvAKWYMiBqWZ4/1U7g5wsGIk8h3sFpWasULvxEJdA==}
-    dependencies:
-      unist-util-visit: 3.1.0
-    dev: false
-
   /remark-math/5.1.1:
     resolution: {integrity: sha512-cE5T2R/xLVtfFI4cCePtiRn+e6jKMtFDR3P8V3qpv8wpKjwvHoBA4eJzvX+nVrnlNy0911bdGmuspCSwetfYHw==}
     dependencies:
@@ -5871,4 +5865,12 @@ packages:
       unist-util-visit: 4.1.0
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  github.com/Dup4/remark-math-space/ec0780848b987793712d0f769d57770a57b948f9:
+    resolution: {tarball: https://codeload.github.com/Dup4/remark-math-space/tar.gz/ec0780848b987793712d0f769d57770a57b948f9}
+    name: remark-math-space
+    version: 3.1.0
+    dependencies:
+      unist-util-visit: 3.1.0
     dev: false

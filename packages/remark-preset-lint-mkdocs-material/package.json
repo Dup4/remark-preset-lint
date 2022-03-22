@@ -81,7 +81,7 @@
     "remark-lint-table-pipes": "^4.1.1",
     "remark-lint-unordered-list-marker-style": "^3.1.1",
     "remark-math": "^5.1.1",
-    "remark-math-space": "^3.0.0",
+    "remark-math-space": "github:Dup4/remark-math-space",
     "unified": "^10.1.2"
   },
   "scripts": {
