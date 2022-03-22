@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/Dup4/remark-preset-lint/compare/v0.4.0...v0.5.0) (2022-03-22)
+
+
+### Features
+
+* set listItemIndent to one ([869d64a](https://github.com/Dup4/remark-preset-lint/commit/869d64ad3fb7f3ecd798d26e5502c9159b1c1505))
+
+
+
+
+
 # [0.4.0](https://github.com/Dup4/remark-preset-lint/compare/v0.3.0...v0.4.0) (2022-03-22)
 
 
