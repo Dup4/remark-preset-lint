@@ -288,7 +288,7 @@ const remarkPresetLintMarkdownStyleGuide = {
     // Not checked.
 
     // https://cirosantilli.com/markdown-style-guide/#emphasis-vs-headers
-    remarkLintNoEmphasisAsHeading,
+    // remarkLintNoEmphasisAsHeading,
 
     // https://cirosantilli.com/markdown-style-guide/#automatic-links-without-angle-brackets
     remarkLintNoLiteralUrls,
