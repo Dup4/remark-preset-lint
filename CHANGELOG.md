@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/Dup4/remark-preset-lint/compare/v0.6.0...v0.7.0) (2022-03-24)
+
+
+### Features
+
+* disable remarkLintNoEmphasisAsHeading ([209a4d0](https://github.com/Dup4/remark-preset-lint/commit/209a4d062b82612e3fb8d755bac35f44f7a37d87))
+
+
+
+
+
 # [0.6.0](https://github.com/Dup4/remark-preset-lint/compare/v0.5.1...v0.6.0) (2022-03-22)
 
 
